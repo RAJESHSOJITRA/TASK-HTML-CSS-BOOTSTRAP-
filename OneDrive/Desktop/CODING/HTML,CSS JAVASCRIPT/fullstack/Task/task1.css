@@ -1,0 +1,156 @@
+/* *{
+    margin:0;
+    padding: 0%;
+    text-align: center;
+    
+    
+}
+.header{
+    
+    background-color:rgb(126, 196, 61);
+    text-align: center;
+    
+    height: 200px;
+}
+.click{
+    color:white;
+    background-color: blue;
+}
+.super{
+
+    text-align: center;
+}
+.quality{
+    text-align: center;
+    color: gray;
+}
+big{
+    font-size: 45px;
+}
+small{
+    font-size: 20px;
+} */
+
+*{
+    margin:0;
+    padding: 0%;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.header{
+    background-color: rgb(126, 196, 61);
+    border: 2px solid black;
+    text-align: center;
+}
+.click{
+    background-color: blue;
+
+    color: white;
+}
+.big{
+    font-size:35px ;
+    display: inline;
+}
+.small{
+    color: gray;
+    display: inline;
+    font-size: 20px;
+}
+
+.image{
+    display: flex;
+
+    
+}
+.box1{
+
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    background-size:cover;
+    margin-right: 15px;
+    display: inline;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+    margin-right: 15px;
+    display: inline;
+}.box3{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: inline;
+    text-align: center;
+    margin-right: 15px;
+    background-size:cover;
+}
+.parts{
+    margin: 0px;
+    
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    width:100px;
+
+
+}
+.center{
+    display: flex;
+}
+
+footer{
+    height: 300px;
+    background-color:yellow ;
+}
+.smallimages{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left:140px;
+    margin-top: 40px;
+    display:inline;
+    border-radius: 50%;
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left:50px;
+    margin-top: 40px;
+    display:inline;
+    border-radius: 50%;
+}
+.box6{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left:150px;
+    margin-top: 40px;
+    display:inline;
+    border-radius: 50%; 
+    display: flex;
+}
+.p{
+    color: aqua;
+}
+
+
+#abc{
+    
+}

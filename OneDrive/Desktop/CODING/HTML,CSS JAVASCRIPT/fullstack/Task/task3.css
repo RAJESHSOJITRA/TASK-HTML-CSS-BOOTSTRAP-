@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* 
+.container{
+     */
+    /* width: 1320px;
+    margin: auto; */
+/* }
+.items{
+    display: grid; */
+  
+    /* grid-template-rows: 50px 100px 200px 300px 400px 500px;     grid-template-columns: 1fr 2fr 3fr  frictions   ; */
+  
+    /* grid-template-columns: repeat(10,1fr);
+    grid-gap: 20px;
+    grid-auto-rows:minmax(100px,auto);    /*height of the grid  */
+    /* grid-auto-columns:minmax(500px,auto);
+    
+}
+.item{
+    display: grid;
+
+    border: 5px solid blue;
+    border-radius: 3px;
+    background-color:yellow;
+}
+.items{
+    display: grid;
+    
+
+}
+.nesteditem{
+    background-color: blue;
+    color: white;
+    
+}
+.data{
+    display:flex;
+    
+    justify-content: space-between;
+}
+.info{
+    display: grid;
+} */ 
+
+
+.container{
+    width: 1320px;
+    margin: auto;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+.data{
+    display: grid;
+    grid-template-columns: 1fr  1fr ;
+    align-items: center;
+    justify-items: center;
+
+}
+.center{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.gujrat{
+    text-align: center;
+
+}
+.states{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    justify-items: center;
+   
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+
+    justify-items: center;
+
+}
+
+.vegetables{
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.box1{
+    border: 2px solid black;
+    box-shadow: 7px 5px 5px 7px green;
+    text-align: center;
+}
+.box2{
+    border: 5px solid black;
+    box-shadow: 10px 15px 7px red;
+    text-align: center;
+
+}
+.info-logo{
+ 
+    display: grid;
+    
+       grid-template-columns: 1fr 1fr 1fr 1fr ;
+       align-items: center;
+       justify-items:end;
+}
+.task1{
+    border-radius: 50%;
+}
+.logo{
+    text-align: center;
+}

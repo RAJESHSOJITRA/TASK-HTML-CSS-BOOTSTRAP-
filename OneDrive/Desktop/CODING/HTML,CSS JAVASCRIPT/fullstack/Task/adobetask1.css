@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width:1140px ;
+    
+    margin: auto;
+}
+
+.header{
+   
+     /* background-image: linear-gradient(red, yellow, blue); */
+    background-color:#2F71DF;  
+    border-bottom-right-radius:95% 60% ;
+
+}
+
+/* heders parent Enescent */
+.Enescent{
+    display: grid;
+    grid-template-columns: 2fr  1fr;
+    
+    color: white;
+    align-items: center;
+
+}
+.search{
+    margin-top:17px  ;
+}
+
+
+.mediafont{
+    font: normal normal 600 46px/57px Montserrat;
+
+}
+.lorem{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 600px;
+}
+.contact-us{
+    height: 54px;
+    width: 210px;
+    background-color: #6FBD13;
+
+}
+.mobile{
+    width: 534px;
+    height: 531px;
+}
+
+/* second section start */
+.maindata{
+    background-color: #F5F9FE;
+    }
+
+
+.works{
+     text-align: center;
+     font-size: 1.5em;
+    font-size: 36px;
+   color:  #303E4B;
+}
+.maindata{
+    margin-top: 20px;
+    height: 400px;
+}
+/*  sections main  parent class is data */
+
+.data{
+
+    width: 1140px;
+    display: flex;
+    
+    margin-top: 40px;
+    gap: 20px;
+
+    
+    
+}
+/* data is a parent class and inputdata , processit , outdata  is sub parent */
+.inputdata{
+    padding: 20px;
+    border: 2px solid #f5f9fe;
+   border-radius: 10px;
+   background-color: white ;
+
+}
+
+/* childclas  of input data processit and outdata */
+.input , .process ,.out{     
+   margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.processit{
+    padding: 20px;
+   border: 2px solid #f5f9fe;
+   border-radius: 10px;
+   background-color: white ;
+
+}
+
+.outdata{
+    padding: 20px;
+    border: 2px solid #f5f9fe;
+   border-radius: 10px;
+   background-color: white ;
+
+
+}
+
+
+/* third  section start  */
+.applications{
+    background-color: #F5F9FE;
+}
+.domainapplications{
+    text-align: center  ;
+
+}
+.maindomain{
+    padding: 20px;
+}
+
+/* parent class for upper domain */
+.domainupper{
+    display: flex;
+     gap: 20px ;
+     
+
+}
+/* subparent class for upper domain#2F71DF */
+.domainname , .anotherdomainname{
+
+    padding: 20px;
+    box-shadow: 8px 8px 8px 8px#F5F9FE;
+
+
+    border: 2px solid #2067DD19;
+}
+.ptext{
+    margin-top: 20px;
+}
+/* parent class for lower domain */
+.lowerdomain{
+    display:flex;
+    
+    margin-top: 20px;
+    gap: 20px;
+
+}
+/* subparent class for lower domain */
+
+.moredomains , .domainmaybe{
+    border: 2px solid #2067DD19 ;
+    box-shadow: 5px 8px 5px 8px #F5F9FE ;
+
+}
+/* fourth  section  is starting  */
+.working{
+    padding: 30px;
+        text-align: center;
+}
+.workingheader{
+    color: #303E4B;
+    margin-top: 20px;
+}
+.workinglorem{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+/* five section is starting */
+.about{
+    background-color: #1A6FE0;
+}
+.aboutus{
+
+    color: white;
+    padding: 20px;
+    display:grid;
+    grid-template-rows: 2fr 3fr;
+    
+}
+/* six section */
+.contactus{
+    padding: 40px;
+    text-align: center;
+}
+.maincontactus{
+    padding-bottom: 50px;
+}
+.loremcontactus{
+    margin-top: 20px;
+}
+/* white and blue form */
+.mainform{
+    display: flex;
+    linear-gradient:
+}
+/* formone start */
+.sendmessage{
+    margin-bottom: 20px;
+}
+.formone{
+    padding: 20px;
+    box-shadow: 0px 2px 20px #2067DD33;
+
+}
+.message{
+    margin-bottom: 20px;
+}
+
+/* form two start */
+.formtwo{
+    padding: 20px;
+    background-color: #2067DD;
+}
+.add , .number , .email{
+    margin: 20px;
+    display: inline-flex;
+}
+.socialmedia{
+    padding: 20px;
+  
+}
+.drone{
+
+             margin-bottom:-10%;
+         padding-left: 80%;
+       
+    }
+
+.lastfooter{
+    text-align: center;
+    background-color: #e4e4e4;
+    text-align: center;
+}
+    

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+a.brand{
+    color: white;
+}
+
+.header{
+    background-color: #0864B1;
+    background-image: url("bootstrap1.png");
+}
+.navbar-brand{
+    font-size: 45px;
+}
+.container{
+    width: 1480px;
+}
+
+/*first section SECOND child CONTAINER START */
+.containermain{
+    width: 1330px;
+    margin: auto;
+
+}
+.row{
+    align-items: center ;
+}
+.font{
+    font-size: 100px;
+    color:white;
+}
+.lorem{
+    font-size:35px;
+    color: white;
+    justify-content:end; 
+
+}
+/* second section(about) start*/
+.aboutus{
+    font-size: 50px;
+    color:#0864B1;
+    position: relative;
+    display: inline-block;
+    padding-bottom:30px ;
+}
+
+.aboutus::after{
+    content: "";
+    position: absolute;
+    border: 5px solid #676767;
+    width: 100%;
+    height: 8px;
+    display: flex;
+}
+.containerabout{
+    width: 1200px;
+}
+.loremipsum{
+    font-size:35px;
+    color:#676767;
+    padding: 0px 100px;
+}
+.number{
+    font-size: 100px;
+    color: #0864B1;
+}
+.ipsum{
+    font-size: 40px;
+    color: #676767;
+    
+}
+.loremnumber{
+    padding-bottom: 20px;
+}
+/* second section start */
+.market{
+    background-color: #F5F5F5;
+}
+.features{
+    justify-content: space-around;
+
+}
+
+/* images and pargraph */
+.insidebackground{
+    background-color: #0864B1;
+}
+img.inside{
+
+    
+    background-color: #0864B1;
+    padding: 35px;
+}
+.loremdoller{
+    font-size: 35px;
+    color: #676767;
+    
+}

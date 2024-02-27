@@ -1,0 +1,137 @@
+/* *{
+    margin: 0px;
+    padding:0px;
+}
+.inline{
+    height: 200px;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+
+
+}
+.header{
+    text-align: center;
+  
+}
+.head{
+    margin: 100px;
+}
+.img{
+    flex-direction: row;
+    display:flex;
+
+}
+.box1{
+    border-radius: 50%;
+    border: 2px solid black;
+    
+
+    
+}.box2{
+    position: relative;
+    left: 150px;
+
+    border-radius: 50%;
+    border: 2px solid black;
+
+    
+}
+.main{
+    height: 200px;
+    background-color: aquamarine;
+}
+.box3{
+
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+.box4{
+    position: relative;
+    left: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* this container css for all sectiones container css will be same */
+.container{
+ 
+    width: 1300px;
+    margin:auto;
+   
+    
+}
+.box{
+   display: flex;
+  justify-content: space-between;
+    
+    
+    
+}
+.box1{
+    border-radius: 50%;
+    
+}
+.box2{
+
+    text-align: center;
+    
+}
+.box3{
+    border-radius: 50%;
+
+}
+
+/* class second image starting */
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.image1{
+    border-radius: 50%;
+    
+
+}
+
+/* class third css starting */
+
+.data{
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+    grid-gap: 20px;
+
+    
+}
+.dataimage{
+    border-radius: 50%;
+}
+/* class four css starting */
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.redimage{
+    border-radius: 50%;
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+.hpimage{
+    border-radius: 50%;
+}
+.third{
+    background-color: red;
+}
